@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position:fixed;
+}
+.container{
+    border: 5px solid orange;
+    height: 100vh;
+}
+.head{
+  color: white;
+  background-color: orange;
+  height: 5rem;
+  padding: 1.4rem 30rem;
+  font-size: 3rem;
+}
+.headline{
+    margin: 1.4rem 20rem;
+
+}
+.button{
+    cursor: pointer;
+}
+.image-container{
+    display: flex;
+    align-items: center;
+    margin: 0rem 23rem;
+}
+img{
+    /* margin-top: 1rem; */
+    border: 3px solid orange;
+}
+.active{
+    display: block;
+}
+.title1,.title2{
+    margin: 1.3rem 3rem;
+    font-size: 1.3rem;
+}
+.img2{
+   margin-left: 0.5rem;
+}
+.or{
+    color: orange;
+    font-weight: 800;
+}
+
+
